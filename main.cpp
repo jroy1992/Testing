@@ -1,8 +1,8 @@
 #include <iostream>
+#include <cstdlib>
 
-using namespace std;
 int main()
 {
-    cout <<"hello world" << endl;
-    return 0;
+    std::cout <<"hello world\n";
+    return EXIT_SUCCESS;
 }
